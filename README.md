@@ -4,7 +4,7 @@ A simple Next.js + Tailwind site to help New Jersey students find scholarships.
 
 ## One‑Click Deploy (after you push this repo to your GitHub)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/omsharma13-blue/nj-scholarships)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR-USERNAME/nj-scholarships)
 
 > Replace `YOUR-USERNAME` after you upload this code to your GitHub account.
 
@@ -48,4 +48,11 @@ Visit http://localhost:3000
 5. On Vercel: **Project → Settings → Environment Variables**, add:
    - `SHEET_CSV_URL` = (your CSV link)
 6. Redeploy. The `/scholarships` page will pull from your sheet automatically (falls back to `data/scholarships.json` if not set).
+
+
+
+### Build Notes (Vercel)
+- Uses Node >= 18 (declared in `package.json`).
+- `vercel.json` is not required and has been removed to avoid schema warnings.
+- If your Google Sheet is not set yet, build falls back to `data/scholarships.json`.
 
