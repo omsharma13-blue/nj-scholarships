@@ -4,7 +4,7 @@ A simple Next.js + Tailwind site to help New Jersey students find scholarships.
 
 ## One‑Click Deploy (after you push this repo to your GitHub)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR-USERNAME/nj-scholarships)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/omsharma13-blue/nj-scholarships)
 
 > Replace `YOUR-USERNAME` after you upload this code to your GitHub account.
 
